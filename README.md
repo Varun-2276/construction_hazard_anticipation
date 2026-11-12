@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI-Powered Construction Site Hazard Anticipation
 
 ## Multi-video Streamlit prototype (refactored version)
@@ -112,3 +113,6 @@ On first run, Ultralytics may download `yolo11n.pt`. Ensure the machine has inte
 ## Hardware guidance
 
 Video inference can be computationally expensive. Process a small batch first and monitor memory, GPU utilization, and per-video processing time. For an 8 GB RAM laptop, prefer short clips, YOLO11n, sequential processing, and an external CUDA GPU/Colab runtime when available. The application does not load every video into the model at once, but Streamlit's upload widget still stages uploaded file bytes in the application process.
+=======
+# construction_hazard_anticipation
+>>>>>>> 219f24390320f8af01605c2a1af95846405bc9d0
